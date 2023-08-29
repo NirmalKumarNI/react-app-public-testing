@@ -9,6 +9,7 @@ jobs:
       - uses: actions/checkout@v2
       # This step runs nifectl deploy.
       - uses: nifetency/nife-actions@2.3
-      - run: nifectl deploy
         env:
           API_TOKEN: ${{ secrets.NIFE_ACCESS_TOKEN }}
+        with:
+          args: "deploy"
