@@ -1,7 +1,7 @@
-# nile.toml file generated for nifeactiontesting on 2023-08-29T19:15:59+05:30
+# nile.toml file generated for nifeactiondeploy on 2023-08-30T15:38:51+05:30
 
-app = "nifeactiontesting11"
-id = "82adeeadb0d2453038b1e8d1888d1704a02de4d71ef49bda5d85d7bb3a54d05512da1fdadfbe89ec0ee946ed2129ed5a"
+app = "nifeactiondeploy"
+id = "1f61c9bfe94c6379382e55c5fe6f7b99582ee2687b452e2b92ac84a4140898c61d44ca7dc2430e8369d34ec1bac78f28"
 
 [build]
   image = "nife123/snake-node:deployment-74h031"
