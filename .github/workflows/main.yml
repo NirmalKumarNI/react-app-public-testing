@@ -10,6 +10,6 @@ jobs:
       # This step runs nifectl deploy.
       - uses: nifetency/nife-actions@2.3
         env:
-          API_TOKEN: ${{ secrets.NIFE_ACCESS_TOKEN }}
+          NIFE_ACCESS_TOKEN: ${{ secrets.NIFE_ACCESS_TOKEN }}
         with:
           args: "deploy"
