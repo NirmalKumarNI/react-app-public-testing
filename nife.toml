@@ -1,6 +1,6 @@
 # nile.toml file generated for nifeactiontesting on 2023-08-29T19:15:59+05:30
 
-app = "nifeactiontesting"
+app = "nifeactiontesting11"
 id = "82adeeadb0d2453038b1e8d1888d1704a02de4d71ef49bda5d85d7bb3a54d05512da1fdadfbe89ec0ee946ed2129ed5a"
 
 [build]
