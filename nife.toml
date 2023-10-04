@@ -1,10 +1,10 @@
-# nile.toml file generated for nifectldep1 on 2023-09-13T14:01:45+05:30
+# nile.toml file generated for rkrkrkrk on 2023-10-04T20:42:39+05:30
 
-app = "nifecldep1235"
-id = "734382668d4660e4d514187d19ef358b0bb643f0a953b8a35aa30e883c62fee0863fd7a59fe5da36061289425b4a1f82"
+app = "rkrkrkrk"
+id = "131cb557a9f9dec4d360c9b52399541215b5bb7ff7b51eaebbbe27338c7f755d32f8d272be54e141000206fd1833d733"
 
 [build]
-  image = "nife123/snake-node:deployment-74h031"
+  image = "nginx:latest"
 
 kill_signal = "SIGINT"
 kill_timeout = 5
@@ -18,7 +18,7 @@ kill_timeout = 5
 [[services]]
   external_port = 80
   http_checks = []
-  internal_port = 4040
+  internal_port = 80
   protocol = "tcp"
   routing_policy = "Latency"
   script_checks = []
