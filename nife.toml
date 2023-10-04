@@ -1,10 +1,7 @@
-# nile.toml file generated for rkrkrkrk on 2023-10-04T20:42:39+05:30
+# nile.toml file generated for oppo1 on 2023-10-04T20:53:48+05:30
 
-app = "rkrkrkrk"
-id = "131cb557a9f9dec4d360c9b52399541215b5bb7ff7b51eaebbbe27338c7f755d32f8d272be54e141000206fd1833d733"
-
-[build]
-  image = "nginx:latest"
+app = "oppo1"
+id = "c94045043de9b547a0a73e9bc937aef3e1a3e6076411f7ff09975bb1e5495f2d967172e096e9d046ceaee1b91edccbac"
 
 kill_signal = "SIGINT"
 kill_timeout = 5
@@ -18,7 +15,7 @@ kill_timeout = 5
 [[services]]
   external_port = 80
   http_checks = []
-  internal_port = 80
+  internal_port = 3000
   protocol = "tcp"
   routing_policy = "Latency"
   script_checks = []
