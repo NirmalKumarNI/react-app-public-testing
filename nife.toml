@@ -1,7 +1,10 @@
-# nile.toml file generated for oppo1 on 2023-10-04T20:53:48+05:30
+# nile.toml file generated for yoppy on 2023-10-05T10:19:30+05:30
 
-app = "oppo1"
-id = "c94045043de9b547a0a73e9bc937aef3e1a3e6076411f7ff09975bb1e5495f2d967172e096e9d046ceaee1b91edccbac"
+app = "yoppy"
+id = "17e931cdd393229dcb2a7adf641a67f4caf11eeafbcc9fa2c0859f22c09e54e203a31537579ca3318f63df82b4f17b70"
+
+[build]
+  image = "nife123/snake-node:deployment-74h031"
 
 kill_signal = "SIGINT"
 kill_timeout = 5
@@ -15,7 +18,7 @@ kill_timeout = 5
 [[services]]
   external_port = 80
   http_checks = []
-  internal_port = 3000
+  internal_port = 4040
   protocol = "tcp"
   routing_policy = "Latency"
   script_checks = []
