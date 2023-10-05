@@ -1,10 +1,7 @@
-# nile.toml file generated for reddit11 on 2023-10-05T10:29:02+05:30
+# nile.toml file generated for loplop on 2023-10-05T16:31:39+05:30
 
-app = "reddit11"
-id = "a75ab3fced0a9c5b4cf088a5ac32a753ce160dcdf544e3019607c82be73997e340bd288b31ed805273cfd2720b5f171c"
-
-[build]
-  image = "nginx:latest"
+app = "loplop"
+id = "7284d7c5f847d04630eee97347b936a377d4b026c5f14e358e9c36f8efeb88aa1ef26be3dc823317edc1319e8e34d810"
 
 kill_signal = "SIGINT"
 kill_timeout = 5
@@ -18,7 +15,7 @@ kill_timeout = 5
 [[services]]
   external_port = 80
   http_checks = []
-  internal_port = 80
+  internal_port = 3000
   protocol = "tcp"
   routing_policy = "Latency"
   script_checks = []
