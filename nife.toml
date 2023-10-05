@@ -1,10 +1,10 @@
-# nile.toml file generated for yoppy on 2023-10-05T10:19:30+05:30
+# nile.toml file generated for redditt on 2023-10-05T10:25:43+05:30
 
-app = "yoppy"
-id = "17e931cdd393229dcb2a7adf641a67f4caf11eeafbcc9fa2c0859f22c09e54e203a31537579ca3318f63df82b4f17b70"
+app = "redditt"
+id = "55e72e383d4fe1db5f02f9ff4e3a177d17dd077a31c719fe1b2960e92e2ac0a5286dc3c5c08735117bb3b7d2f488ec7e"
 
 [build]
-  image = "nife123/snake-node:deployment-74h031"
+  image = "nginx:latest"
 
 kill_signal = "SIGINT"
 kill_timeout = 5
@@ -18,7 +18,7 @@ kill_timeout = 5
 [[services]]
   external_port = 80
   http_checks = []
-  internal_port = 4040
+  internal_port = 80
   protocol = "tcp"
   routing_policy = "Latency"
   script_checks = []
