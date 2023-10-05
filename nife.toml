@@ -1,7 +1,7 @@
-# nile.toml file generated for redditt on 2023-10-05T10:25:43+05:30
+# nile.toml file generated for reddit11 on 2023-10-05T10:29:02+05:30
 
-app = "redditt"
-id = "55e72e383d4fe1db5f02f9ff4e3a177d17dd077a31c719fe1b2960e92e2ac0a5286dc3c5c08735117bb3b7d2f488ec7e"
+app = "reddit11"
+id = "a75ab3fced0a9c5b4cf088a5ac32a753ce160dcdf544e3019607c82be73997e340bd288b31ed805273cfd2720b5f171c"
 
 [build]
   image = "nginx:latest"
