@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM nife123/nodealpine:v1
 WORKDIR /app
 COPY package.json ./
 COPY package-lock.json ./
