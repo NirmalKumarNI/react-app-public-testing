@@ -12,4 +12,4 @@ jobs:
         env:
           NIFE_ACCESS_TOKEN: ${{ secrets.NIFE_ACCESS_TOKEN }}
         with:
-          args: "deploy"
+          args: "deploy --remote-only"
