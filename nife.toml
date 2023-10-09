@@ -1,7 +1,7 @@
-# nile.toml file generated for godeployment3 on 2023-10-09T13:08:45+05:30
+# nile.toml file generated for godep1 on 2023-10-09T18:55:46+05:30
 
-app = "godeployment3"
-id = "1f85a8ab9cbc1d5a2e91a94acff3617d618553fa5b38ee5d900d1566b477eaa5c324bcc512254158e30a6eb19627abf9"
+app = "godep1"
+id = "bad1b9170e983f48c8137e23e2b6419c06c6e98c77d7323f27d3b91c924da0f48501dbb0902807f3df747da6ce71dd41"
 
 [build]
   builtin = "static react"
