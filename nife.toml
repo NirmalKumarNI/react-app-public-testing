@@ -1,10 +1,10 @@
-# nile.toml file generated for godeployn on 2023-10-09T11:10:27+05:30
+# nile.toml file generated for godeployment1 on 2023-10-09T11:25:05+05:30
 
-app = "godeployn"
-id = "0c583d056440074d269ba89d073cbc5ffd8f64dda305afb34b9caa316f7afde0c58e4b095583b4fbfa6da53c911ecf30"
+app = "godeployment1"
+id = "1113a97761c91056c349906154b8b95a1bf438abedb854f9cb5e29e17ce9e0a10136b2c135c7f3dea960adda0dd2176f"
 
 [build]
-  image = "nginx:latest"
+  builtin = "static react"
 
 kill_signal = "SIGINT"
 kill_timeout = 5
@@ -18,7 +18,7 @@ kill_timeout = 5
 [[services]]
   external_port = 80
   http_checks = []
-  internal_port = 80
+  internal_port = 3000
   protocol = "tcp"
   routing_policy = "Latency"
   script_checks = []
