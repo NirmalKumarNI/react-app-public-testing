@@ -3,6 +3,8 @@
 app = "gopals1"
 id = "60dd28907ace03d612536b556e1b8113f499f5b5b952766fa18d9214941c68e9998072dc56d2e72c71b8b8cb6d8e0d5d"
 
+[build]
+  builtin = "static react"
 
 kill_signal = "SIGINT"
 kill_timeout = 5
