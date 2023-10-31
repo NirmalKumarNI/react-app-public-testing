@@ -1,7 +1,7 @@
-# nile.toml file generated for lasttrydep111 on 2023-10-31T13:42:50+05:30
+# nile.toml file generated for nifeactiondepl1 on 2023-10-31T19:34:39+05:30
 
-app = "lasttrydep111"
-id = "067514b8fbfb692e5ce0b48a594ff6bed6b897b0717156147efa4721b7816283e69a659ac5bd76095e141d53e50c96ce"
+app = "nifeactiondepl1"
+id = "6efb9016301599d2d49831350225d95cbd8fb168ecc38d1d2cb048f7683762ec612b591bce77e9af1eb20b21ca310796"
 
 [build]
   builtin = "static react"
