@@ -1,8 +1,23 @@
-FROM nife123/nodealpine:v1
+# Use an official Node.js runtime as a base image
+FROM node:14-alpine
+
+# Set the working directory inside the container
 WORKDIR /app
-COPY package.json ./
-COPY package-lock.json ./
-COPY ./ ./
-RUN npm i
-EXPOSE 3000
-CMD ["npm", "run", "start"]
+
+# Copy package.json and package-lock.json to the working directory
+COPY package*.json ./
+
+# Install app dependencies
+RUN npm install
+
+# Copy the rest of the application code to the working directory
+COPY . .
+
+# Build the React app
+RUN npm run build
+
+# Expose port 80
+EXPOSE 80
+
+# Define the command to run your app
+CMD [ "npm", "start" ]
