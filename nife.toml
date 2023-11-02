@@ -1,7 +1,7 @@
-# nile.toml file generated for lastupdate2 on 2023-11-02T14:58:45+05:30
+# nile.toml file generated for latestdeployment12 on 2023-11-02T15:24:23+05:30
 
-app = "lastupdate2"
-id = "d517d294e99da6a5a068de7abb1665cb588ae9aaf57f9afc766595a9cdc57d6a76549e0e46e1ebaa452b5cfc927ea74e"
+app = "latestdeployment12"
+id = "ce1231630350e9c69a690274af7459d94720ff616666071cb0c0bc474e7ebe235b1b7540a7aa7cfaf874f0b9e81fe51e"
 
 [build]
   builtin = "static react"
