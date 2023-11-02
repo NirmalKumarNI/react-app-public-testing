@@ -1,7 +1,7 @@
-# nile.toml file generated for wedtry on 2023-11-01T10:36:39+05:30
+# nile.toml file generated for lastupdate1 on 2023-11-02T10:39:20+05:30
 
-app = "wedtry"
-id = "d0bb435e87465263c6ab72a8d1153ac69494f8e3ce14601b031dd6dc070912a4c37ecb15172360a331b5b576562ba903"
+app = "lastupdate1"
+id = "52572db730870433a6ef333a4ed57feaf89edd493af880f5d9b8445b722289e4382acea8f366ddc2ee4a500794ed07ed"
 
 [build]
   builtin = "static react"
