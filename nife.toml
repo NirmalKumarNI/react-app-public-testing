@@ -1,6 +1,6 @@
 # nile.toml file generated for livenifeactions on 2023-11-06T11:34:21+05:30
 
-app = "livenifeactions"
+app = "priceless-app-1036"
 id = "4b42d234f39c4167fe11ab8516b7461729b7b710bb06e69a43d479ec9310c08d166e4cb237d175970e3475dbcc863442"
 
 [build]
