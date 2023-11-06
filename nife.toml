@@ -1,7 +1,7 @@
-# nile.toml file generated for latestdeployment12 on 2023-11-02T15:24:23+05:30
+# nile.toml file generated for livenifeactions on 2023-11-06T11:34:21+05:30
 
-app = "latestdeployment12"
-id = "ce1231630350e9c69a690274af7459d94720ff616666071cb0c0bc474e7ebe235b1b7540a7aa7cfaf874f0b9e81fe51e"
+app = "livenifeactions"
+id = "4b42d234f39c4167fe11ab8516b7461729b7b710bb06e69a43d479ec9310c08d166e4cb237d175970e3475dbcc863442"
 
 [build]
   builtin = "static react"
