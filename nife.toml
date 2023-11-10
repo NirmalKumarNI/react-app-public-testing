@@ -1,7 +1,7 @@
-# nile.toml file generated for livenifeactions on 2023-11-06T11:34:21+05:30
+# nile.toml file generated for proapp1 on 2023-11-10T15:30:59+05:30
 
-app = "priceless-app-1036"
-id = "4b42d234f39c4167fe11ab8516b7461729b7b710bb06e69a43d479ec9310c08d166e4cb237d175970e3475dbcc863442"
+app = "proapp1"
+id = "beced881aaeee9a9ad7e0f133f6de0f8fc12da0a3d7da1371c5602263196f1d7312575308af6ff4c1518be1abffc5e94"
 
 [build]
   builtin = "static react"
