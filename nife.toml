@@ -1,7 +1,7 @@
-# nile.toml file generated for proapp1 on 2023-11-10T15:30:59+05:30
+# nile.toml file generated for maarkettestcase on 2023-11-22T11:14:52+05:30
 
-app = "proapp1"
-id = "beced881aaeee9a9ad7e0f133f6de0f8fc12da0a3d7da1371c5602263196f1d7312575308af6ff4c1518be1abffc5e94"
+app = "maarkettestcase"
+id = "aa065212b16f5fef164e4aa7eaea5b0402eebf6fd07f1b8cd43444901bc14b7adb2b07522dfedfc23137f9209d4c7775"
 
 [build]
   builtin = "static react"
